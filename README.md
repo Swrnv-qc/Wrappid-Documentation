@@ -1,5 +1,6 @@
 # Wrapper Framework for Rapid Development
-![[Pasted image 20240122110500.png | 400]]
+
+<img src="https://github.com/wrappid/.github/blob/main/logo/logo-1200x400.png" width="50%" height="auto" />
 ## Introduction
 ---
 The Wrappid Framework is a wrapper framework designed to facilitate rapid development of applications. It allows developers to write code once and then use the Wrappid Toolkit to build both web and mobile applications simultaneously .
