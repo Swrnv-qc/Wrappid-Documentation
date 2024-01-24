@@ -14,7 +14,7 @@ By default, the styling libraries used are [mui for web](https://mui.com/materia
 
 To get started with the Wrappid Framework, you need to go through several steps:
 
-### 1. Get Early Access to Wrappid:**
+### 1. Get Early Access to Wrappid:
 
 You need to fill out the [Wrappid Early Access Request form](https://docs.google.com/forms/d/e/1FAIpQLSe4l2KlbHjubjbpWrIhArBZJc12Lv2TnOevh2Cj9WUfYEuRSw/viewform) to get a valid`<WRAPPID_TOKEN>`. This token is used to read and download the Wrappid packages .
 
