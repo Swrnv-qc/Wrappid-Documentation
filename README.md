@@ -333,61 +333,9 @@ cd <project_name>-service
 wrappid start --env=[dev|stage|prod]
 ```
 
-**Output**
-<!--
-## Hi there 👋
+## Various commands and options that are available in the Wrappid CLI
 
-**Here are some ideas to get you started:**
-
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-
-# `Wrappid` CLI Tool
-
-This is a npm package for our own `Wrappid` command line interface to create a `Wrappid` project.
-
-## Requirements
-
-- Node - 16
-- React - 18.2.0
-- React Native - 0.71.6
-
-### Step 2
-
-Choosing a template for your wrappid project.
-Template(s) available for now as follows:
-
-- Web: Using React 18.2.0
-- Mobile: Using React Native 0.71.6
-
-```
-
-> Choose template
->
-> 1. Web: Using React 18.2.0
-> 2. Mobile: Using React Native 0.71.6
-
-```
-
-Based on your template selection your project will be prepared.
-
-### Step 3
-
-Start auto installation process.
-
-### Step 4
-
-Now you have a sample module for business module refference.
-
--->
-<!-- 
-### All commands for ref:
-wrappid cli
-Alias: `wcli`, `wr`.
-```
+```terminal
 wrappid [command] [subcommand] [arguments] [options]
 
 This is a npm package to enable Wrappid Toolkit so that application developers
@@ -443,12 +391,12 @@ wrappid add <modulename> - old
 wrappid build web
 wrappid build android
 
-``` -->
-<!--
+```
+
 wrappid-dev cli
 Alias: `wdev`, `wd`.
 
-```
+```terminal
 Usage: wrappid-dev [command] [subcommand] [arguments] [options]
 
 This is a npm package to enable Wrappid Developer Toolkit so that application developers
