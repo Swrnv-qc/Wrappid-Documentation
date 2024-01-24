@@ -18,7 +18,7 @@ To get started with the Wrappid Framework, you need to go through several steps:
 
 You need to fill out the [Wrappid Early Access Request form](https://docs.google.com/forms/d/e/1FAIpQLSe4l2KlbHjubjbpWrIhArBZJc12Lv2TnOevh2Cj9WUfYEuRSw/viewform) to get a valid`<WRAPPID_TOKEN>`. This token is used to read and download the Wrappid packages .
 
-### 3. Check Pre-requisites: Ensure that you meet the requirements for setting up the Wrappid Framework
+### 2. Check Pre-requisites: Ensure that you meet the requirements for setting up the Wrappid Framework
 
 **Required for web app development:**
 
@@ -30,14 +30,14 @@ You need to fill out the [Wrappid Early Access Request form](https://docs.google
 **Check your version of Node.js and npm:**
 To see if you already have Node.js and npm installed and check the installed version, run the following commands:
 
-```
+```terminal
 node -v
 ```
 
 Expected output:  
 v16.20.x
 
-```
+```terminal
 npm -v
 ```
 
@@ -51,8 +51,55 @@ Expected output:
 - [Android Studio](https://developer.android.com/studio)Recommended Code editor:
 - [VS Code](https://code.visualstudio.com/)/[VS Codium](https://vscodium.com/)
 
-3. **Install `Wrappid Toolkit`**
+### 3. Install `Wrappid Toolkit`
+
 To use `Wrappid Toolkit`, you need to setup scoped wrappid package registry and install `@wrappid/toolkit` globally in your system.
 
- >**Note:**
- >_It is expected that you successfully went through [1. get early access to wrappid](https://github.com/Swrnv-qc/Documentation#1-get-early-access-to-wrappid) section. If you don't, you won't be able to setup wrappid framework._
+ >**Note:**_It is expected that you successfully went through [1. get early access to wrappid](https://github.com/Swrnv-qc/Documentation#1-get-early-access-to-wrappid) section. If you don't, you won't be able to setup wrappid framework._
+
+_Run the below commands to setup scoped package registry:_
+
+ <!--C:\Users\Wrappid>-->
+Here we will use `<WRAPPID_TOKEN>` that is sent to your email.
+
+ ```terminal
+ npm config set @wrappid:registry https://npm.pkg.github.com/wrappid
+```
+
+</br>
+
+```terminal
+ npm config set //npm.pkg.github.com/:_authToken <WRAPPID_TOKEN>
+ ```
+
+Run the below command to install `Wrappid Toolkit` globally in your system.
+
+```terminal
+npm install -g @wrappid/toolkit
+```
+
+Once the installation is done, verify the `Wrappid Toolkit` installation. Run the below command to verify you already have `Wrappid Toolkit` installed and check the installed version
+
+```terminal
+wrappid -V
+```
+
+After successful installation, you should see something like this on your terminal:
+
+v0.0.107
+
+> **Note:** _This is the  `Wrappid Toolkit` version at the time of this documentation._
+
+### 4. One-time Initialisation
+
+Run the below command to install all dependencies `Wrappid Toolkit` uses
+
+```terminal
+wrappid install
+```
+
+This one-time initialisation of `Wrappid Toolkit` follows the below steps:
+
+- Install package dependencies
+- Download & Install GitHub CLI or `gh` (if not already installed)
+- Authenticate with GitHub A/c to use GitHub CLI or `gh`
