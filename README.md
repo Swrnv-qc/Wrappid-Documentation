@@ -14,13 +14,13 @@ By default, the styling libraries used are [mui for web](https://mui.com/materia
 
 To get started with the Wrappid Framework, you need to go through several steps:
 
-### 1. Get Early Access to Wrappid:
+### 1. Get Early Access to Wrappid
 
 You need to fill out the [Wrappid Early Access Request form](https://docs.google.com/forms/d/e/1FAIpQLSe4l2KlbHjubjbpWrIhArBZJc12Lv2TnOevh2Cj9WUfYEuRSw/viewform) to get a valid`<WRAPPID_TOKEN>`. This token is used to read and download the Wrappid packages .
 
 ### 3. Check Pre-requisites: Ensure that you meet the requirements for setting up the Wrappid Framework
 
-Required for web app development:
+**Required for web app development:**
 
 - [Node.js - version 16.20.X](https://nodejs.org/en/blog/release/v16.20.0)
 - npm - version 8.X.X
@@ -45,7 +45,7 @@ Expected output:
 8.x.x
 >**Note:** _Above mentioned version is based on the time of documentation, 16.20.(x), 8.(x).(x), x may differ._.
 
-###### Required for mobile app development
+**Required for mobile app development:**
 
 - [JDK - 11](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html)
 - [Android Studio](https://developer.android.com/studio)Recommended Code editor:
