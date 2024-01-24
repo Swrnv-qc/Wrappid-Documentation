@@ -1,8 +1,9 @@
 # Wrapper Framework for Rapid Development
 
 <img src="https://github.com/Swrnv-qc/Documentation/blob/main/logo-1200x400.png" width="50%" height="auto" alt="Wrappid"/>
+
 ## Introduction
----
+
 The Wrappid Framework is a wrapper framework designed to facilitate rapid development of applications. It allows developers to write code once and then use the Wrappid Toolkit to build both web and mobile applications simultaneously .
 
 The framework is based on technologies such as React, React Native, Node, Express, etc. It includes a repository of components known as CoreComponents for application developers to use. Developers also have the flexibility to write their own components .
@@ -11,7 +12,6 @@ By default, the styling libraries used are [mui for web](https://mui.com/materia
 
 ## Getting Started
 
---
 To get started with the Wrappid Framework, you need to go through several steps:
 
 ### 1. Get Early Access to Wrappid:**
