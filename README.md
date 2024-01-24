@@ -55,4 +55,4 @@ Expected output:
 To use `Wrappid Toolkit`, you need to setup scoped wrappid package registry and install `@wrappid/toolkit` globally in your system.
 
  >**Note:**
- >_It is expected that you successfully went through  section. If you don't, you won't be able to setup wrappid framework._
+ >_It is expected that you successfully went through [1. get early access to wrappid](https://github.com/Swrnv-qc/Documentation#1-get-early-access-to-wrappid) section. If you don't, you won't be able to setup wrappid framework._
