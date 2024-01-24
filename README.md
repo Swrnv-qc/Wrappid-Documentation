@@ -334,7 +334,6 @@ wrappid start --env=[dev|stage|prod]
 ```
 
 **Output**
-
 <!--
 ## Hi there 👋
 
