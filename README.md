@@ -335,6 +335,9 @@ wrappid start --env=[dev|stage|prod]
 
 ## Various commands and options that are available in the Wrappid CLI
 
+wrappid cli
+Alias: `wr`.
+
 ```terminal
 wrappid [command] [subcommand] [arguments] [options]
 
